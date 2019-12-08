@@ -15,28 +15,26 @@ function setup() {
 function draw() {
   background(220)
 
-  fill(45);
-  quad(130,165,275,165,250,350,155,350);
-  fill(255, 216, 201)
-  triangle (155,120,175,170,175,120);
+ stroke (0)
+ fill(45);
+ quad(width/3.1,height/2.4,width/1.45,height/2.4,width/1.6,height/1.1399,width/2.65,height/1.1399);
 
-  triangle (220,120,225,170,246,120);
+ fill(255, 216, 201);
+ ellipse(width/2,height/4,width/4,height/4);
 
-  rect(175,130,50,40);
 
-  ellipse(200,100,100,100);
-  fill(255)
-  triangle(140,85,175,120,200,90);
-  fill(255)
-  triangle(260,85,220,120,200,90);
-  fill(25)
-  circle (175,100,20);
-  fill(25)
-  circle (222,100,20);
+ fill(255);
+ triangle(width/2.84,height/4.7,width/2.28,height/3.32,width/2,height/4.4);
+ triangle(width/1.535,height/4.7,width/1.81,height/3.32,width/2,height/4.4);
 
-  quad (120,135,150,160,180,350,155,350);
+ noStroke();
+ fill(25)
+ circle (width/2.28,height/4,15);
+ circle (width/1.8,height/4,15);
 
-  quad (280,135,250,160,225,350,250,350);
+ stroke (0)
+ quad(width/3.33,height/2.96,width/2.66,height/2.5,width/2.22,height/1.14,width/2.66,height/1.14);
+ quad(width/1.42,height/2.96,width/1.6,height/2.5,width/1.79,height/1.14,width/1.6,height/1.14);
 
 
   }
