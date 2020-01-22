@@ -16,10 +16,10 @@ function draw() {
   background(220)
 
 
-    fill(45);
+  fill(45);
   quad(width/3.07,height/2.42, width/1.45,height/2.42, width/1.6,height/1.14, width/2.58,height/1.14);
   fill(255, 216, 201)
-  ellipse(width/2, height/4, width/5,height/3.7);
+  ellipse(width/2, height/4, width/5);
 
   fill(255)
   triangle(width/2.85,height/4.7, width/2.28,height/3.33, width/2,height/4.44);
